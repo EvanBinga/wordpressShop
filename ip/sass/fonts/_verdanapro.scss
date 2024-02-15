@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondRegular.eot');
+    src: local('Verdana Pro Cond'), local('VerdanaPro-CondRegular'),
+        url('fonts/VerdanaPro/VerdanaPro-CondRegular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondRegular.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondRegular.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-Bold.eot');
+    src: local('Verdana Pro Bold'), local('VerdanaPro-Bold'),
+        url('fonts/VerdanaPro/VerdanaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-Bold.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-Bold.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondLight.eot');
+    src: local('Verdana Pro Cond Light'), local('VerdanaPro-CondLight'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLight.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLight.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondSemiBold.eot');
+    src: local('Verdana Pro Cond SemiBold'), local('VerdanaPro-CondSemiBold'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBold.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBold.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondBold.eot');
+    src: local('Verdana Pro Cond Bold'), local('VerdanaPro-CondBold'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBold.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBold.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-BlackItalic.eot');
+    src: local('Verdana Pro Black Italic'), local('VerdanaPro-BlackItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-BlackItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-BlackItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-Regular.eot');
+    src: local('Verdana Pro'), local('VerdanaPro-Regular'),
+        url('fonts/VerdanaPro/VerdanaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-Regular.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-Regular.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-LightItalic.eot');
+    src: local('Verdana Pro Light Italic'), local('VerdanaPro-LightItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-LightItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-LightItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondSemiBoldItalic.eot');
+    src: local('Verdana Pro Cond SemiBold Italic'), local('VerdanaPro-CondSemiBoldItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBoldItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBoldItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondSemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-SemiBoldItalic.eot');
+    src: local('Verdana Pro SemiBold Italic'), local('VerdanaPro-SemiBoldItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBoldItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondBoldItalic.eot');
+    src: local('Verdana Pro Cond Bold Italic'), local('VerdanaPro-CondBoldItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBoldItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBoldItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-BoldItalic.eot');
+    src: local('Verdana Pro Bold Italic'), local('VerdanaPro-BoldItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-BoldItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-BoldItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondLightItalic.eot');
+    src: local('Verdana Pro Cond Light Italic'), local('VerdanaPro-CondLightItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLightItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLightItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-Black.eot');
+    src: local('Verdana Pro Black'), local('VerdanaPro-Black'),
+        url('fonts/VerdanaPro/VerdanaPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-Black.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-Black.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-Light.eot');
+    src: local('Verdana Pro Light'), local('VerdanaPro-Light'),
+        url('fonts/VerdanaPro/VerdanaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-Light.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-Light.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-Italic.eot');
+    src: local('Verdana Pro Italic'), local('VerdanaPro-Italic'),
+        url('fonts/VerdanaPro/VerdanaPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-Italic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-Italic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondItalic.eot');
+    src: local('Verdana Pro Cond Italic'), local('VerdanaPro-CondItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-CondItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondBlackItalic.eot');
+    src: local('Verdana Pro Cond Black Italic'), local('VerdanaPro-CondBlackItalic'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlackItalic.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlackItalic.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Verdana Pro Cond';
+    src: url('fonts/VerdanaPro/VerdanaPro-CondBlack.eot');
+    src: local('Verdana Pro Cond Black'), local('VerdanaPro-CondBlack'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlack.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlack.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlack.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-CondBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana Pro';
+    src: url('fonts/VerdanaPro/VerdanaPro-SemiBold.eot');
+    src: local('Verdana Pro SemiBold'), local('VerdanaPro-SemiBold'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBold.woff2') format('woff2'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBold.woff') format('woff'),
+        url('fonts/VerdanaPro/VerdanaPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

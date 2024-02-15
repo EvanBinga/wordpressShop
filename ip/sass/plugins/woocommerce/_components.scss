@@ -1,0 +1,142 @@
+/**
+ * Tabs
+ */
+.woocommerce-tabs {
+
+	ul.tabs {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: left;
+
+		li {
+			display: block;
+			margin: 0;
+			position: relative;
+
+			a {
+				padding: 1em 0;
+				display: block;
+			}
+		}
+	}
+
+	.panel {
+
+		h2:first-of-type {
+			margin-bottom: 1em;
+		}
+	}
+}
+
+/**
+ * Password strength meter
+ */
+.woocommerce-password-strength {
+	text-align: right;
+
+	&.strong {
+		color: $woocommerce__color-success;
+	}
+
+	&.short {
+		color: $woocommerce__color-error;
+	}
+
+	&.bad {
+		color: $woocommerce__color-error;
+	}
+
+	&.good {
+		color: $woocommerce__color-info;
+	}
+}
+
+/**
+ * Forms
+ */
+.col2-set {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 25px;
+  @media(min-width: 998px) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.form-row {
+
+  label {
+    display: block;
+  }
+  input[type="text"],
+  input[type="tel"],
+  input[type="password"],
+  input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.5em;
+  }
+	&.woocommerce-validated {
+
+		input.input-text {
+			box-shadow: inset 2px 0 0 $woocommerce__color-success;
+		}
+	}
+
+	&.woocommerce-invalid {
+
+		input.input-text {
+			box-shadow: inset 2px 0 0 $woocommerce__color-error;
+		}
+	}
+}
+
+.required {
+	color: #f00;
+}
+
+/**
+ * Notices
+ */
+.woocommerce-message,
+.woocommerce-info,
+.woocommerce-error,
+.woocommerce-noreviews,
+p.no-comments {
+	background-color: $woocommerce__color-success;
+	clear: both;
+  color: #fff;
+  padding: 1em;
+  padding-left: 2em;
+  a {
+    color: #fff;
+    border-bottom: 1px solid rgba(255,255,255, 0.2);
+  }
+}
+
+.woocommerce-info,
+.woocommerce-noreviews,
+p.no-comments {
+	background-color: $woocommerce__color-info;
+}
+
+.woocommerce-error {
+	background-color: $woocommerce__color-error;
+}
+
+.demo_store {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	padding: 1em;
+	background-color: $woocommerce__color-info;
+	z-index: 9999;
+}
+
+
+.reset_variations {
+  display: none;
+}

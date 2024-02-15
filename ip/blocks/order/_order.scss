@@ -1,0 +1,136 @@
+/*--------------------------------------------------------------
+# Order
+--------------------------------------------------------------*/
+.ip-order {
+  background-color: rgba($color__primary, 1);
+}
+@media(min-width: 600px) {
+  .ip-order {
+    background: transparent url(blocks/order/order.jpg) top center no-repeat;
+    background-size: cover;
+  }
+}
+
+.ip-order__inner {
+  padding: 25px;
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media(min-width: 600px) {
+  .ip-order__inner {
+    background-color: rgba($color__primary, 0.9);
+  }
+}
+@media(min-width: 1200px) {
+  .ip-order__inner {
+    padding: 50px 100px;
+  }
+}
+
+.ip-order__title {
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 1;
+  span { color: red; }
+}
+.ip-order__subtitle {
+  text-align: center;
+}
+.ip-order_theme_dark {
+  .ip-order__title {
+    color: #fff;
+    // color: $color__text-main;
+  }
+  .ip-order__subtitle {
+    color: #fff;
+    // color: $color__text-main;
+  }
+}
+
+.ip-order__description {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ip-order-form {
+  textarea {
+    max-height: 122px;
+  }
+  input[type='text'],
+  input[type='tel'],
+  textarea {
+    width: 100%;
+    padding-left: 7px;
+    border-radius: 3px;
+    //color: $c2;
+    color: $color__text-main;
+    border: 1px solid $c2;
+    background-color: transparent;
+
+    &::-webkit-input-placeholder { color: #fff; opacity: 1; }
+    &::-moz-placeholder          { color: #fff; opacity: 1; }
+    &:-moz-placeholder           { color: #fff; opacity: 1; }
+    &:-ms-input-placeholder      { color: #fff; opacity: 1; }
+
+    &:focus::-webkit-input-placeholder { opacity:0; }
+    &:focus::-moz-placeholder          { opacity:0; }
+    &:focus:-moz-placeholder           { opacity:0; }
+    &:focus:-ms-input-placeholder      { opacity:0; }
+  }
+  .message { text-align: center; }
+}
+
+.ip-order-form__message {}
+
+.ip-order-form__item {
+  margin-top: 1.2em;
+}
+
+.ip-order-form__btn-wrap {
+  text-align: center;
+}
+
+.ip-order-form__submit {
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ip-order_theme_dark {
+  input[type='text'],
+  input[type='tel'],
+  textarea {
+    color: #fff;
+    // color: $color__text-main;
+    border: 1px solid #fff;
+    background-color: transparent;
+
+    &::-webkit-input-placeholder { color: #fff; opacity: 1; }
+    &::-moz-placeholder          { color: #fff; opacity: 1; }
+    &:-moz-placeholder           { color: #fff; opacity: 1; }
+    &:-ms-input-placeholder      { color: #fff; opacity: 1; }
+  }
+  .personal-data__desc {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.userfile {
+  display: none;
+}
+.userfile__label {
+  display: block;
+  padding: 6px 12px;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+.userfile__text {}

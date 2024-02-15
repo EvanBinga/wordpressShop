@@ -1,0 +1,37 @@
+.ip-responsive-table__wrap {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+@media screen and (max-width: 900px) {
+  .ip-responsive-table__wrap {
+    //Убираем фон
+    tbody tr:nth-of-type(even) {
+      background-color: unset;
+    }
+    tbody tr td:nth-of-type(even) {
+      background-color: rgba($color__primary, 0.05);
+    }
+  }
+  .ip-responsive-table__wrap thead {
+    display: none !important;
+  }
+  .ip-responsive-table__wrap tr {
+    display: block;
+    margin-bottom: 30px;
+  }
+  .ip-responsive-table__wrap td {
+    display: block;
+    border-collapse: separate;
+    margin-top: -1px;
+  }
+  .ip-responsive-table__wrap td:first-of-type {
+    margin-top: 0;
+  }
+  .ip-responsive-table__wrap td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+  }
+  .ip-responsive-table__wrap td:last-child {
+  }
+}

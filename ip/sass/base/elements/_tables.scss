@@ -1,0 +1,47 @@
+.table-wrap {
+  overflow: auto;
+}
+
+table {
+  margin: 0 0 1.5em;
+  text-align: left;
+  border-collapse: collapse;
+  @media(min-width: 500px) {
+    width: 100%;
+  }
+  tbody,
+  tfoot {
+    tr:nth-of-type(even) {
+        background-color: rgba($color__primary, 0.05);
+    }
+    tr:hover {
+        background-color: rgba($color__primary_light, 0.2);
+    }
+    tr:first-of-type:hover {
+        background-color: unset;
+    }
+  }
+  td,
+  th {
+    padding: 0.5em;
+    color: $color__text-main;
+    border: 1px solid $color__primary_light;
+  }
+  thead {
+    background-color: $color__primary;
+    th,
+    td {
+      color: #fff;
+      font-weight: normal;
+      border: 1px solid $color__primary_light;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}
+
+//Вынести свои уникальные стили оформления в одтельное правило
+//часто применяется там где не надо
+.ip-table {
+}

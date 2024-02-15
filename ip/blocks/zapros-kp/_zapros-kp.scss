@@ -1,0 +1,22 @@
+.form_zapros-kp {
+  @media(min-width: $query__lg) {
+    max-width: unset;
+  }
+  .userfile__label {
+    display: block;
+    padding: 6px 12px;
+    color: #454545;
+    border: 1px solid #454545;
+    cursor: pointer;
+  }
+  .userfile__text {
+    color: #454545;
+  }
+}
+.zapros-kp__grid {
+  @media(min-width: $query__lg) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+}

@@ -1,0 +1,32 @@
+.woocommerce-Reviews {
+  .review {
+  }
+  .meta {
+    display: none;
+  }
+}
+.commentlist {
+  margin: 0;
+  padding: 0;
+}
+
+.comment-reply-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+/*
+* Form
+*/
+.comment-form-author,
+.comment-form-email {
+  display: flex;
+    flex-direction: column;
+    max-width: 250px;
+}
+//Textarea
+.comment-form-comment {
+  max-width: 600px;
+  max-height: 300px;
+}

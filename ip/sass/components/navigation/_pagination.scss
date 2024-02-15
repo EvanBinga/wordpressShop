@@ -1,0 +1,51 @@
+.pagination {
+
+  padding: 1em 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-width: 1px 0;
+  text-align: center;
+  clear: both;
+
+	.site-main & {
+		margin: 0 0 1.5em;
+	}
+
+  .nav-links {
+
+    list-style: none;
+    margin: 1px;
+    padding: 0;
+    display: inline-block;
+    white-space: nowrap;
+    clear: both;
+    border: 1px solid #d3ced2;
+    border-right: 0;
+    line-height: 1;
+    li {
+      display: inline-block;
+      float: left;
+      padding: 0;
+      margin: 0;
+      border-right: 1px solid #d3ced2;
+      overflow: hidden;
+    }
+    a {
+      border-color: $color__secondary;
+      &:hover {
+        border-color: $color__secondary_light;
+        color: $color__secondary;
+      }
+    }
+    .page-numbers {
+      border-left-width: 0;
+      display: inline-block;
+      padding: 0.7em 0.9em 0.5em 0.9em;
+    }
+    .current {
+      border-color: #eaeaea;
+      background-color: #eaeaea;
+    }
+
+  }
+}
+

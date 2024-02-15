@@ -1,0 +1,14 @@
+.form_zakaz-obrazcov {
+  margin-left: auto;
+  margin-right: auto;
+  @media(min-width: $query__lg) {
+    max-width: unset;
+  }
+}
+.zakaz-obrazcov__grid {
+  @media(min-width: $query__lg) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+}

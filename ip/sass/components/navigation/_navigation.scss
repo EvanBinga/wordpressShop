@@ -1,0 +1,188 @@
+.main-navigation__wrap {
+  background: $color__background-menu;
+}
+
+//<nav>
+.main-navigation {
+  display: block;
+  width: 100%;
+
+  //ul-1
+  .menu {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    background: $color__primary;
+
+    //level 2 - ul-2
+    .sub-menu {
+      position: absolute;
+      top: 100%;
+      left: -999em;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      flex-direction: column; //?
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+      background-color: $color__primary;
+      z-index: 99999;
+
+        //level 3 ul-3
+        .sub-menu {
+          left: -999em;
+          top: 0;
+        }
+
+        //Элемент 2-го уровня
+        .menu-item {
+
+          //Показываем 3-й уровень на мобильных
+          &:hover > .sub-menu,
+          &.focus > .sub-menu {
+            display: block;
+            left: 100px;
+            @media(min-width: $query__lg) {
+              //Показываем 3-й уровень на ПК
+              left: 300px;
+            }
+          }
+
+          a {
+            padding-left: 1em;
+          }
+
+        }
+
+        //Ссылка меню 2-го уровня
+        a {
+          width: 300px;
+          font-size: 0.9em;
+          text-align: left;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        li:hover > a,
+        li.focus > a {
+          .sub-menu {
+            left: auto;
+          }
+        }
+
+    }//sub-menu
+
+    //Показываем 2-й уровень
+    .menu-item:hover > .sub-menu,
+    .menu-item.focus > .sub-menu {
+      left: auto;
+    }
+
+  }//menu
+
+  //Элемент 1-го уровня
+  .menu-item {
+    position: relative;
+    flex: auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255, 0.4);
+
+    // &:hover > a,
+    // &.focus > a {
+    //   background-color: $color__primary_light;
+    // }
+  }
+
+  //Ссылка 1-го уровня
+  a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    // color: $color__text-main;
+    padding: 0.7em 1em;
+    transition: background-color 0.3s;
+    &:hover {
+      background-color: $color__primary_light;
+    }
+  }
+
+  //Выделение текущего пункта
+  .current_page_item > a,
+  .current-menu-item > a,
+  .current_page_ancestor > a,
+  .current-menu-ancestor > a {
+    //background-color: $color__primary_light;
+  }
+
+}//.main-navigation
+
+/* Small menu. */
+.menu-toggle {
+  display: flex;
+  align-items: center;
+  background-color: $color__primary-light;
+  border: none;
+  padding: 0.4em 1.2em;
+  svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    path {
+      fill: #fff;
+    }
+  }
+}
+
+.main-navigation.toggled ul {
+  display: block;
+}
+
+@media screen and (min-width: $query__md) {
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .main-navigation .menu {
+    display: flex;
+    justify-content: space-between;
+    li {
+      border-bottom: none;
+    }
+  }
+
+}
+
+
+/* Mega menu
+.menu-item-69:hover {
+ */
+  /*
+.menu-item-69 {
+  //2 level
+  > .sub-menu {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    > li > a {
+      text-transform: uppercase;
+    } 
+    
+    a {
+      border-bottom: none !important;
+      box-shadow: none !important;
+      font-size: 0.9em !important;
+    }
+    //3 level
+    .sub-menu {
+      position: relative;
+      top: unset !important;
+      left: unset !important;
+      display: block;
+      box-shadow: none !important;
+      &:hover {
+      }
+    }
+  }
+}
+*/

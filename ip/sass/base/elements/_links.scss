@@ -1,0 +1,48 @@
+a {
+  color: $color__link;
+  text-decoration: none;
+}
+
+.woocommerce-breadcrumb a,
+.link-dark {
+  color: $color__link;
+  text-decoration: none;
+
+  transition: border-color 0.3s;
+  border-bottom: 1px solid rgba($color__primary_dark, 0.2);
+
+  &:visited,
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color__link-hover;
+    border-bottom: 1px solid rgba($color__primary_dark, 0.5);
+    outline: 0;
+  }
+}
+
+.link-light {
+  color: #fff;
+  border-bottom: 1px solid rgba(#fff, 0.2);
+  // border-bottom: 1px solid rgba($color__link, 0.2);
+  // color: $color__text-main;
+  transition: border-color 0.3s;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #fff;
+    // color: $color__link-hover;
+    // border-bottom: 1px solid rgba($color__link-hover, 0.5);
+    border-bottom: 1px solid rgba(#fff, 0.5);
+  }
+}
+
+a.post-thumbnail {
+  border-bottom: none;
+}
+
+figure a {
+  border-bottom: unset !important;
+}
+

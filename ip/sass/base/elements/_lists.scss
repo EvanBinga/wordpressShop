@@ -1,0 +1,55 @@
+ul,
+ol {
+	margin: 0 0 1.5em 0;
+}
+@media(min-width: 1200px) {
+  ul,
+  ol {
+    margin: 0 0 1.5em 0.5em;
+    padding-left: 1.5em;
+  }
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: 700;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+.f-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+    li {
+    position: relative;
+    padding-left: 1.5em;
+    font-size: 20px;
+    margin-bottom: 0.7em;
+      &:before {
+        position: absolute;
+        font-family: 'Font Awesome 6 Pro';
+        font-weight: bold;
+        font-size: 0.9em;
+        color: #aeaabb;
+        top: 2px;
+        left: 0px;
+        content: "\f005";
+      }
+    }
+}

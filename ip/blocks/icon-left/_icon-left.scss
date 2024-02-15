@@ -1,0 +1,55 @@
+.icon-left {
+  display: grid;
+  grid-template-columns: 137px auto;
+  grid-gap: 1em;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.icon-left__fa {
+  border-radius: 100%;
+  width: 137px;
+  height: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F3EF;
+}
+
+.icon-left__inner {
+  display: flex;
+  width: 97px;
+  height: 97px;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+  background: $color__primary;
+  i {
+    font-size: 2em;
+    color: #fff;
+  }
+}
+
+.icon-left__icon {
+  max-width: 100%;
+}
+
+.icon-left__title {
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: bold;
+  @media( min-width: 1200px ) {
+    font-size: 1.5em;
+  }
+}
+
+.icon-left__content {
+  margin-top: 0.5em;
+}
+
+.icon-left__content p {
+  margin: 0;
+}

@@ -1,0 +1,11 @@
+.woocommerce-message {
+  margin-bottom: 1em;
+  .button {
+    display: inline-block;
+    max-width: 250px;
+    margin-right: 0.5em;
+      @media(max-width: 1200px) {
+        margin-bottom: 0.5em;
+      }
+  }
+}

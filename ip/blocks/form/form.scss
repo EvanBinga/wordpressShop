@@ -1,0 +1,73 @@
+/* Magnific Popup */
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+/* Popup Form */
+.form {
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  .glyphicon {
+    font-size: 24px;
+  }
+}
+
+.form__title {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form__item {
+  margin-top: 1rem;
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  button {
+    width: 100%;
+    padding: 8px 0 8px 15px;
+  }
+}
+
+.form__btn-wrap {
+  @media(max-width: $query__lg) {
+    text-align: center;
+  }
+}
+.message { margin-top: 1rem; text-align: center; }
+
+input.error {
+  border: 1px solid red;
+}
+
+
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.alert-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}

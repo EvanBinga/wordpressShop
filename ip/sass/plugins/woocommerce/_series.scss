@@ -1,0 +1,108 @@
+.series {
+  margin-bottom: 2em;
+}
+.series__row {
+}
+.series__row_1 {
+  margin-bottom: 2em;
+  @media(min-width: 900px) {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 25px;
+  }
+}
+.series__img-wrap {
+}
+.series__img-url {
+  border-bottom: none;
+  &:active,
+  &:focus,
+  &:hover {
+    border-bottom: none;
+  }
+}
+.series__img {
+  max-width: 300px;
+}
+
+@media(max-width: 600px) {
+  .series__table {
+    table-layout: fixed;
+    // tr td:first-of-type {
+    //   width: 40%;
+    // }
+    td,
+    th {
+      font-size: 13px;
+      // width: 20%;
+      // word-wrap: break-word;
+    }
+  }
+}
+
+.series__table {
+  .btn {
+    min-width: 90px;
+    padding: 0.6em;
+  }
+}
+
+@media(min-width: 900px) {
+  .series__table_col_4 {
+    tbody tr td {
+      width: 25%;
+    }
+  }
+  .series__table_col_5 {
+    tbody tr td {
+      width: 20%;
+    }
+  }
+}
+
+.series__buy {
+  text-align: center;
+}
+
+.series__table_split {
+  @media(max-width: 600px) {
+   .series__model {}
+   .series__area {}
+   .series__price {}
+   .series__ustanovka {}
+   .series__buy { display: none; }
+  }
+}
+.series__table_outdoor {
+  @media(max-width: 600px) {
+    .series__model {}
+    .series__rooms {}
+    .series__area {}
+    .series__power { display: none; }
+    .series__price {}
+  }
+}
+
+.series__table_indoor {
+  @media(max-width: 600px) {
+    .series__model {}
+    .series__area {}
+    .series__power {}
+    .series__price {}
+  }
+}
+
+.circle-blue {
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+  background: $color__secondary;
+}
+.circle-gray {
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+  border: 1px solid #333;
+}

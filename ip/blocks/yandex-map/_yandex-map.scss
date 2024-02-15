@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+# Yandex map
+--------------------------------------------------------------*/
+.yandex-map {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+// @media(min-width: 600px) {
+//   .yandex-map {
+//     height: 400px;
+//   }
+// }
+// @media(min-width: 1200px) {
+//   .yandex-map {
+//     height: 500px;
+//   }
+// }
+
+// [class*="ymaps-2"][class*="-ground-pane"] {
+//     filter: url("data:image/svg+xml;utf8,#grayscale");
+//     -webkit-filter: grayscale(100%);
+// }
+
+.map__wrap {
+  position: absolute;
+  margin: 38px 0;
+  padding: 30px;
+  background-color: white;
+  max-width: 450px;
+  background-color: white;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  z-index: 3;
+}
+
+.map__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  &:last-child { margin-bottom: 0; }
+}
+
+.map__icon {
+  margin-right: 15px;
+  min-width: 45px;
+  text-align: center;
+  .fal {
+    font-size: 30px;
+    color: #0d151d;
+  }
+}
+
+.map__text {
+  display: inline-block;
+}
+
+.map__title { font-weight: bold; color: #0d151d; }
+
+.map__desc { max-width: 300px; }
+
+@media only screen and (max-width : 768px) {
+  .map__wrap { display: none; }
+}

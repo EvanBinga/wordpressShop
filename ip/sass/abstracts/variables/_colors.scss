@@ -1,0 +1,57 @@
+$color__primary: #4c8dc4;
+$color__secondary: #fa4b21;
+
+$color__primary_light: lighten($color__primary, 10);
+$color__primary_dark: darken($color__primary, 10);
+$color__secondary_light: lighten($color__secondary, 10);
+$color__secondary_dark: darken($color__secondary, 10);
+
+
+.gradient {
+  background-image: linear-gradient(to right, #4b8bc2 0%, #3a5e9e 100%);
+}
+
+$border-radius: 5px;
+
+$color__background-menu: $color__primary;
+// $color__background-menu: linear-gradient(45deg, $color__primary, $color__primary_light);
+$query__xs: 480px;
+$query__sm: 768px;
+$query__md: 992px;
+$query__lg: 1200px;
+
+$color__background-body: #f2f2f2;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+// #000b17 - основной цвет шрифта
+// #808080 - для элементов с пониженным приоритетом
+// #e8e8e8 - подчёркивание, разделители
+$c1: #0D0D0D;
+$c2: #3F3F40;
+$c3: #c2c2c2;
+$c4: #e5e5e5;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+$color__text-main: #454545;
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+
+$color__link: $color__text-main;
+$color__link-visited: $color__text-main;
+$color__link-hover: $color__text-main;
+
+$color__border-input: #ccc;
+$color__border-abbr: #666;

@@ -1,0 +1,205 @@
+.widget-area {
+  .widget {
+    margin: 0 0 1.5em;
+    border: 1px solid rgba($color__primary, 0.2);
+    border: 1px solid #110000;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1.5em;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    //Фильтр WooCommerce
+    .chosen {
+      a {
+        color: red;
+        position: relative;
+        &:before {
+          position: absolute;
+          left: -11px;
+          top: 1px;
+          content: "\f00d";
+          font-size: 0.8em;
+          font-family: "Font Awesome 6 Pro";
+        }
+      }
+    }
+
+    // Make sure select elements fit in widgets.
+    select {
+      max-width: 100%;
+    }
+  }
+}
+
+.wp-block-pages-list__item {
+  margin-bottom: 0.5em;
+}
+
+.widgettitle,
+.widget-title,
+.sidebar-block__title {
+  position: relative;
+  top: -10px;
+  background-color: #ffffff;
+  max-width: 105px;
+  margin: 0 auto;
+
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.sidebar-block__img {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.sidebar-block__name {
+    font-size: 18px;
+    color: $color__primary;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+}
+.sidebar-block__line {
+    width: 50px;
+    height: 3px;
+    background-color: $color__primary;
+    margin: 20px auto;
+}
+.sidebar-block__text {
+  font-size: 0.9em;
+  font-weight: 300;
+  text-align: center;
+}
+.sidebar-block__link-wrap {
+  margin-top: 1em;
+  text-align: center;
+}
+.sidebar-block__link {
+  font-size: 0.9em;
+  font-weight: 300;
+  display: inline-block;
+  padding-bottom: 0.1em;
+  color: $color__primary;
+  border-bottom: 1px solid rgba($color__primary, 0.2);
+  transition: all 0.3s;
+  &:hover {
+    border-bottom: 1px solid rgba($color__primary, 0.5);
+  }
+}
+
+
+/*
+ * Sidebar menu
+ */
+.widget-area {
+  #menu-two {
+    list-style: none;
+    padding: 0;
+  }
+  #menu-two li {
+    padding-left: 1.875em;
+    padding-bottom: 0.5em;
+    margin-top: 0.7em;
+    border-bottom: 1px solid #e8e8e8;
+    background-image: url(images/icon_list.png);
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+  #menu-two a {
+    display: inline-block;
+    padding-left: 0.3em;
+    font-size: 13px;
+    font-weight: 300;
+    border-bottom: none;
+  }
+}
+
+/*
+ * Виджет с категориями товаров
+ */
+.widget-area {
+  .wc-block-product-categories-list {
+    a {
+      font-size: 15px;
+    }
+    .wc-block-product-categories-list--depth-1 {
+      padding-left: 10px;
+      font-size: 0.9em;
+    }
+  }
+}
+
+#fbs{
+        display: none;
+
+}
+
+.filters__btn-wrap {
+  margin-bottom: 2em;
+  @media(min-width: 1100px) {
+    display: none;
+  }
+}
+.filters__btn {
+}
+
+.wc-block-product-search__field {
+  font-size: 13px;
+}
+
+/*
+ * Home Menu
+ */
+.home-menu {
+
+  .menu {
+    max-width: 300px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      a {
+        &:link { color: #fff; text-decoration: none; }
+        &:visited { color: #fff; text-decoration: none; }
+        &:hover { color: #fff; text-decoration: none; }
+        &:active { color: #fff; text-decoration: none; }
+      }
+    }
+  }
+
+  .menu a {
+    background: $color__primary;
+    color: #fff;
+    padding: 10px 10px;
+    display: block;
+    border-bottom: 1px solid $color__primary-light;
+    transition: 0.5s all;
+    &:hover {
+      background: $color__primary-light;
+      padding: 10px 0 10px 15px;
+    }
+  }
+
+}
+
+/*
+ * Виджет widget_nav_menu
+ */
+.widget_nav_menu {
+  .menu-item {
+    margin-bottom: 0.5em;
+  }
+}

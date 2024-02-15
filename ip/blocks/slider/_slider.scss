@@ -1,0 +1,141 @@
+.ip-slider {
+}
+.ip-slide__inner {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  @media(min-width: $query__xs) {
+  }
+  @media(min-width: $query__sm) {
+  }
+  @media(min-width: $query__lg) {
+  }
+}
+
+.ip-slide {
+  min-height: 410px;
+  padding: 1em 2em;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  @media(min-width: 1600px) {
+    padding: 0;
+    text-align: left;
+    animation: kvant 10s linear infinite;
+  }
+}
+
+@keyframes kvant {
+  0% { background-size: 110%;}
+  50% { background-size: 115%;}
+  100% { background-size: 110%; }
+}
+
+.ip-slide__link {
+  border-bottom: none;
+}
+.ip-slide__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: rgba(38,38,38,0.7);
+}
+.ip-slide__title {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0px 0px 5px #000;
+  @media(min-width: $query__xs) {
+    font-size: 28px;
+  }
+  @media(min-width: $query__sm) {
+    font-size: 28px;
+  }
+  @media(min-width: $query__lg) {
+    font-size: 36px;
+  }
+}
+.ip-slide__desc {
+  display: inline-block;
+  max-width: 550px;
+  margin-top: 15px;
+  font-size: 16px;
+  color: #fff;
+  text-shadow: 0px 0px 5px #000;
+  @media(min-width: $query__lg) {
+    font-size: 20px;
+  }
+}
+.ip-slide__btn {
+  margin-top: 15px;
+}
+
+.ip-slider {
+  .slick-arrow {
+    @media(max-width: 1400px) {
+      display: none;
+    }
+  }
+  .slick-prev {
+    left: 25px;
+  }
+  .slick-next {
+    right: 25px;
+  }
+}
+
+/* Уникальные стили проекта */
+.ip-slide {
+  font-family: 'Montserrat';
+}
+.ip-slide_1 {
+  .ip-slide__desc {
+    text-transform: uppercase;
+    font-size: 22px;
+    max-width: 465px;
+    font-weight: 600;
+    @media(min-width: 600px) {
+      font-size: 36px;
+    }
+    b {
+      display: block;
+      font-weight: bold;
+    }
+  }
+  .ip-slide__btn {
+    @media(min-width: 1200px) {
+      position: relative;
+      top: -52px;
+      left: 286px;
+    }
+  }
+}
+.ip-slide_2 {
+  .ip-slide__grid {
+    @media(min-width: 1200px) {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+  .ip-slide__title {
+    text-transform: uppercase;
+    max-width: 430px;
+  }
+  .ip-slide__desc {
+    max-width: 407px;
+    font-size: 11px;
+    line-height: 1.7;
+    @media(min-width: $query__sm) {
+      font-size: 14px;
+    }
+  }
+  .ip-slide__btn .btn {
+    margin-left: 20px;
+  }
+}
+.ip-slide__btn .btn {
+  font-size: 19px;
+}

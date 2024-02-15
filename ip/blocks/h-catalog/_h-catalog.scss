@@ -1,0 +1,24 @@
+.h-catalog {
+  .product {
+    text-align: center;
+  }
+  .woocommerce-loop-category__title {
+    font-size: 1em;
+    font-weight: normal;
+  }
+  .slick-prev,
+  .slick-next {
+      background: transparent;
+  }
+  @media(min-width: 1300px) {
+    .slick-prev {
+      left: -50px;
+    }
+    .slick-next {
+      right: -50px;
+    }
+  }
+  .slick-prev:before, .slick-next:before {
+    color: $color__primary;
+  }
+}

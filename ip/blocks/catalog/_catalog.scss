@@ -1,0 +1,23 @@
+.catalog-section {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.cbrands {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  @media(min-width: $query__md) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.cbrands__linkem {
+}
+
+.catalog-articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+  @media(min-width: $query__md) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

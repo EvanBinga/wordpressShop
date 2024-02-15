@@ -1,0 +1,34 @@
+.shop_table {
+  margin-bottom: 2em;
+  .button {
+  }
+  .attachment-woocommerce_thumbnail {
+    max-width: 50px;
+    height: auto;
+  }
+}
+
+.woocommerce-cart-form {
+  input {
+    padding: 8px 0 8px 15px;
+  }
+  .input-text {
+    max-width: 50px;
+  }
+}
+
+.cart-collaterals {
+  margin-bottom: 2em;
+}
+/*
+ * Метод доставки
+ */
+.woocommerce-shipping-methods {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  label {
+    padding-left: 5px;
+  }
+}
+

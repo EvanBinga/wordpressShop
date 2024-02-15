@@ -1,0 +1,86 @@
+/*
+Theme Name: ip
+
+WooCommerce styles override
+*/
+
+
+// Import variables and mixins
+@import "abstracts/abstracts";
+
+// WooCommerce color variables
+$woocommerce__color-error: $color__primary;
+$woocommerce__color-success: $color__primary;
+$woocommerce__color-info: $color__primary;
+
+// WooCommerce color variables
+// $woocommerce__color-error: #5E5971;
+// $woocommerce__color-success: #5E5971;
+// $woocommerce__color-info: #5E5971;
+
+/**
+ * Header Cart
+ */
+@import "plugins/woocommerce/h-cart";
+
+/**
+ * Breadcrumb
+ */
+@import "plugins/woocommerce/breadcrumbs";
+
+/**
+ * Noticec
+ */
+@import "plugins/woocommerce/notices";
+/**
+ * Shop tables
+ */
+@import "plugins/woocommerce/tables";
+
+/**
+ * Archive
+ */
+@import "plugins/woocommerce/archive";
+@import "plugins/woocommerce/series";
+@import "plugins/woocommerce/pagination";
+
+/**
+ * Products
+ */
+@import "plugins/woocommerce/products";
+
+/**
+ * Star Rating
+ */
+@import "plugins/woocommerce/rating";
+
+/**
+ * Woocommerce Reviews
+ */
+@import "plugins/woocommerce/reviews";
+
+/**
+ * Single product
+ */
+@import "plugins/woocommerce/single-product";
+@import "plugins/woocommerce/subcategories";
+
+/**
+ * Cart
+ */
+@import "plugins/woocommerce/cart";
+
+/**
+ * Checkout
+ */
+@import "plugins/woocommerce/checkout";
+
+/**
+ * General WooCommerce components
+ */
+@import "plugins/woocommerce/components";
+
+/**
+ * WooCommerce widgets
+ */
+@import "plugins/woocommerce/widgets";

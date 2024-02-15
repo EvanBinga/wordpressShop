@@ -1,0 +1,47 @@
+.m-why {
+  .slick-prev,
+  .slick-next {
+      background: transparent;
+  }
+  @media(min-width: 1300px) {
+    .slick-prev {
+      left: -50px;
+    }
+    .slick-next {
+      right: -50px;
+    }
+  }
+  .slick-prev:before, .slick-next:before {
+    color: $color__primary;
+  }
+}
+.m-why__item {
+  text-align: center;
+  &:hover i {
+    color: $color__secondary;
+  }
+}
+@media(min-width: $query__lg) {
+  .m-why__item_1 {
+    margin-top: 100px;
+  }
+  .m-why__item_2 {
+  }
+  .m-why__item_3 {
+    margin-top: 100px;
+  }
+  .m-why__item_4 {
+  }
+  .m-why__item_5 {
+    margin-top: 100px;
+  }
+}
+.m-why_img {
+}
+.m-why_img i {
+  font-size: 3em;
+  color: $color__primary;
+}
+.m-why_txt {
+  font-weight: bold;
+}

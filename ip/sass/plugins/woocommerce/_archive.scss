@@ -1,0 +1,73 @@
+.woocommerce-products-header {
+  margin-bottom: 2em;
+}
+.woocommerce-loop-category__title {
+  font-size: 1em;
+  line-height: 1.2;
+  .count {
+    display: none;
+  }
+}
+.woocommerce-loop-product__title {
+  // min-height: 40px;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+.one-click__wrap {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+.one-click__btn {
+}
+.archive .product .btn,
+.archive .product .add_to_cart_button {
+  // width: 100%;
+}
+
+.onsale {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #fff;
+  background-color: rgba($color__secondary-light, 0.7);
+  padding: 2px 5px;
+  font-size: 0.8em;
+  z-index: 2;
+}
+
+.p-options {
+  max-width: 193px;
+  min-height: 47px;//выравниваем высоту блока
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  font-size: 14px;
+}
+.p-options__item {
+  display: flex;
+  align-items: center;
+  i {
+    display: inline-block;
+    color: $color__secondary;
+    margin-right: 6px;
+  }
+}
+.p-options__val {
+  display: inline-block;
+}
+
+//задаём высоту блока с изображением и выравниваем по центру
+.woocommerce-loop-product__img-wrap {
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.woocommerce-loop-product__link img {
+  max-height: 150px;
+  width: auto;
+}
